@@ -1,0 +1,119 @@
+/* FONTS */
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800;900&family=Nunito+Sans:wght@400;600;700;800;900&display=swap");
+/* FONTS END */
+
+/* GLOBAL */
+:root {
+  --font-nunito-sans: "Nunito Sans", sans-serif;
+  --font-montserrat: "Montserrat", sans-serif;
+  --color-white: #fff;
+  --color-dark: #17181e;
+  --color-dark-tint: #21212b;
+  --color-accent: #e75441;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: var(--font-nunito-sans);
+  font-size: 18px;
+  font-weight: 400;
+  color: var(--color-white);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: var(--font-montserrat);
+  font-weight: 700;
+}
+
+h1 {
+  font-size: 50px;
+}
+
+h2 {
+  font-size: 35px;
+}
+
+h3 {
+  font-size: 28px;
+}
+
+h4 {
+  font-size: 24px;
+}
+
+h5 {
+  font-size: 20px;
+}
+
+h6 {
+  font-size: 18px;
+}
+
+p,
+button {
+  font-family: var(--font-nunito-sans);
+}
+
+.link {
+  text-decoration: none;
+  transition: 0.3s all;
+}
+
+.link:hover {
+  color: var(--color-accent);
+}
+
+.custom-input {
+  padding: 25px 35px 25px 65px;
+  width: 100%;
+  font-size: 20px;
+  border: 1px solid #333;
+  border-radius: 10px;
+  transition: 0.3s all;
+  border: none;
+  background-color: var(--color-dark-tint);
+  color: white;
+  line-height: 1;
+  box-shadow: rgb(0 0 0 / 14%) 0px 3px 8px;
+  background-image: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCIgd2lkdGg9IjI0IiBoZWlnaHQ9IjI0Ij48cGF0aCBmaWxsPSJub25lIiBkPSJNMCAwaDI0djI0SDB6Ii8+PHBhdGggZD0iTTExIDJjNC45NjggMCA5IDQuMDMyIDkgOXMtNC4wMzIgOS05IDktOS00LjAzMi05LTkgNC4wMzItOSA5LTl6bTAgMTZjMy44NjcgMCA3LTMuMTMzIDctNyAwLTMuODY4LTMuMTMzLTctNy03LTMuODY4IDAtNyAzLjEzMi03IDcgMCAzLjg2NyAzLjEzMiA3IDcgN3ptOC40ODUuMDcxbDIuODI5IDIuODI4LTEuNDE1IDEuNDE1LTIuODI4LTIuODI5IDEuNDE0LTEuNDE0eiIgZmlsbD0icmdiYSgyNTUsMjU1LDI1NSwxKSIvPjwvc3ZnPg==);
+  background-repeat: no-repeat;
+  background-size: 30px;
+  background-position: 20px center;
+  font-family: var(--font-montserrat);
+}
+
+.custom-input:focus {
+  outline: none;
+}
+
+.custom-btn {
+  font-size: 20px;
+  text-align: center;
+  padding: 15px 50px;
+  font-family: var(--font-nunito-sans);
+  cursor: pointer;
+  background-color: #ff5a44;
+  color: var(--color-white);
+  border-radius: 12px;
+  display: inline-flex;
+  font-weight: 600;
+  letter-spacing: 1px;
+  transition: 0.3s all ease-out;
+  border: 1px solid transparent;
+}
+
+.custom-btn:hover {
+  transform: scale(1.08);
+  background-color: var(--color-accent);
+}
+/* GLOBAL END */

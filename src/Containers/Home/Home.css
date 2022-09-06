@@ -1,0 +1,10 @@
+.user-search-form {
+  margin-inline: auto;
+  max-width: 90%;
+  width: 100%;
+  text-align: center;
+}
+
+.user-search-form .input-wrap {
+  margin-bottom: 50px;
+}

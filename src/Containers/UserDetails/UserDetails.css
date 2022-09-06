@@ -1,0 +1,67 @@
+.user-info-card {
+  background-color: var(--color-dark-tint);
+  padding: 25px;
+  display: flex;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+.user-info-card .user-img {
+  width: 120px;
+  height: 120px;
+  margin-right: 25px;
+  flex-shrink: 0;
+}
+
+.user-info-card .user-img img {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+}
+
+.user-git-link {
+  margin-left: auto;
+  align-self: flex-start;
+  font-size: 30px;
+  color: var(--color-white);
+}
+
+.repo-list {
+  background-color: var(--color-dark-tint);
+  padding: 20px;
+  max-height: 500px;
+  overflow-y: auto;
+}
+
+.repo-list .repo-list-item {
+  width: 100%;
+  border: 1px solid #5e5e5e;
+  border-radius: 10px;
+  padding: 20px 25px;
+  background-color: transparent;
+  color: var(--color-white);
+  text-align: left;
+  font-size: 18px;
+  cursor: pointer;
+  transition: 0.3s border-color;
+}
+
+.repo-list .repo-list-item:hover {
+  border-color: var(--color-white);
+}
+
+.repo-list-item .repo-item-top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.repo-list-item:not(:last-child) {
+  margin-bottom: 15px;
+}
+
+.repo-item-desc {
+  margin-top: 15px;
+  line-height: 1.6;
+}
