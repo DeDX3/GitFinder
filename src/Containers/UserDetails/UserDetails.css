@@ -65,3 +65,15 @@
   margin-top: 15px;
   line-height: 1.6;
 }
+
+@media screen and (max-width: 767px) {
+  .user-info-card {
+    justify-content: center;
+    text-align: center;
+    flex-wrap: wrap;
+  }
+
+  .user-info-content {
+    padding-right: 0 !important;
+  }
+}

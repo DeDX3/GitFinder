@@ -1,7 +1,7 @@
+import "utilities-css/dist/utilities-css.css";
 import React from "react";
 import ReactDOM from "react-dom/client";
 import App from "./App";
-import "utilities-css/dist/utilities-css.css";
 import "remixicon/fonts/remixicon.css";
 import "./index.css";
 
